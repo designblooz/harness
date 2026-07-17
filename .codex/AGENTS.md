@@ -28,6 +28,13 @@ Before acting, ask internally:
 
 ## Operating Method
 
+**Start every task by dispatching a `researcher` to locate all relevant code
+files** — entry points, callers, data structures, tests, and related modules —
+before planning or editing. Do this even for a change that looks small: the map
+is what stops you from patching one call site while sibling callers stay broken.
+The steps below build on that map. (Skip only for purely conversational replies
+with no code to touch.)
+
 1. Establish the goal, relevant context, constraints, and completion criteria.
 2. Inspect entry points, data structures, invariants, callers, tests, and recent
    history before modifying behavior.
