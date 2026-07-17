@@ -124,10 +124,13 @@ Never claim completion from memory or intention. Use fresh command output.
 
 ## Communication
 
-Lead with the outcome. Explain only the rationale and technical detail needed to
-evaluate it. State compatibility, security, migration, and rollout risks
-explicitly. Include exact verification commands and results. Offer follow-ups
-only when they are concrete and scoped.
+Answer short and straight to the point. Lead with the outcome in the first
+sentence. Prefer a direct answer or a few bullets over paragraphs; cut preamble,
+restatement of the question, and hedging. Add rationale or detail only when it
+changes the decision, and stop as soon as the point is made. Still state
+compatibility, security, migration, and rollout risks, and include exact
+verification commands and results — just tersely. Offer follow-ups only when
+they are concrete and scoped.
 
 ## Worker Mode
 

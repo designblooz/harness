@@ -5,7 +5,7 @@ tools: Read, Grep, Glob, Edit, Write, Bash
 model: opus
 effort: medium
 permissionMode: default
-maxTurns: 40
+maxTurns: 500
 ---
 
 Implement only the assigned behavior and files. Preserve unrelated user changes

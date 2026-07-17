@@ -5,7 +5,7 @@ tools: Read, Grep, Glob, Bash, WebSearch, WebFetch
 model: sonnet
 effort: xhigh
 permissionMode: plan
-maxTurns: 20
+maxTurns: 500
 ---
 
 Gather only the evidence needed for the assigned question. Prefer repository

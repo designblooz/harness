@@ -6,7 +6,7 @@ Personal toolbox: skills and custom MCP servers, shared between Claude Code and 
 
 - `skills/` — canonical skills, one dir per skill containing a `SKILL.md`. Both tools read this same format.
 - `.codex/AGENTS.md` — canonical global Distinguished Software Engineer guidance for Codex.
-- `.claude/CLAUDE.md` — canonical global Claude Code guidance; imports the shared Codex guidance and adds Claude-specific orchestration rules.
+- `.claude/CLAUDE.md` — canonical global Claude Code guidance; standalone (no longer imports `.codex/AGENTS.md`) so Claude-specific functionality like agent teams can diverge from Codex.
 - `.codex/agents/` and `.claude/agents/` — matching custom definitions for the `researcher`, `planner`, `implementer`, and `reviewer` roles.
 - `mcp/` — custom MCP servers, one dir per server.
 - `.claude/skills` and `.codex/skills` — symlinks to `skills/`, so both tools auto-discover skills when working inside this repo.

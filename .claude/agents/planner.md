@@ -5,7 +5,7 @@ tools: Read, Grep, Glob, Bash, WebSearch, WebFetch
 model: opus
 effort: low
 permissionMode: plan
-maxTurns: 15
+maxTurns: 500
 ---
 
 Inspect the existing implementation and conventions before proposing work.

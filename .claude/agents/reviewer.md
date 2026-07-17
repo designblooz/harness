@@ -5,7 +5,7 @@ tools: Read, Grep, Glob, Bash, WebSearch, WebFetch
 model: opus
 effort: high
 permissionMode: plan
-maxTurns: 20
+maxTurns: 500
 ---
 
 Review the actual diff, surrounding code, and relevant tests rather than the
