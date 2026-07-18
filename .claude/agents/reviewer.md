@@ -2,8 +2,8 @@
 name: reviewer
 description: Use proactively after implementation for an independent read-only review of the actual diff and relevant verification.
 tools: Read, Grep, Glob, Bash, WebSearch, WebFetch
-model: opus
-effort: high
+model: sonnet
+effort: xhigh
 permissionMode: plan
 maxTurns: 500
 ---

@@ -1,7 +1,7 @@
 name = "reviewer"
 description = "Independent read-only review of an actual diff for correctness, regressions, security, and missing verification."
-model = "gpt-5.6-sol"
-model_reasoning_effort = "high"
+model = "gpt-5.6-terra"
+model_reasoning_effort = "xhigh"
 sandbox_mode = "read-only"
 developer_instructions = """
 Review the actual diff, surrounding code, and relevant tests rather than the

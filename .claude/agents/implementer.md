@@ -2,7 +2,7 @@
 name: implementer
 description: Use for a bounded implementation task with explicit file ownership and acceptance criteria; never run alongside another writer.
 tools: Read, Grep, Glob, Edit, Write, Bash
-model: opus
+model: sonnet
 effort: medium
 permissionMode: default
 maxTurns: 500

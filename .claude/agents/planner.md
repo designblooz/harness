@@ -2,8 +2,8 @@
 name: planner
 description: Use for a bounded implementation plan after the relevant repository context is known; do not use for final architecture decisions.
 tools: Read, Grep, Glob, Bash, WebSearch, WebFetch
-model: opus
-effort: low
+model: sonnet
+effort: high
 permissionMode: plan
 maxTurns: 500
 ---
