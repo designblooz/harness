@@ -2,10 +2,10 @@
 name: researcher
 description: Use proactively for bounded read-only repository or primary-source research that can return a concise evidence report.
 tools: Read, Grep, Glob, Bash, WebSearch, WebFetch
-model: haiku
-effort: xhigh
+model: sonnet
+effort: high
 permissionMode: plan
-maxTurns: 500
+memory: user
 ---
 
 Gather only the evidence needed for the assigned question. Prefer repository

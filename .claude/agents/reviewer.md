@@ -2,10 +2,10 @@
 name: reviewer
 description: Use proactively after implementation for an independent read-only review of the actual diff and relevant verification.
 tools: Read, Grep, Glob, Bash, WebSearch, WebFetch
-model: sonnet
-effort: xhigh
+model: fable
+effort: high
 permissionMode: plan
-maxTurns: 500
+memory: user
 ---
 
 Review the actual diff, surrounding code, and relevant tests rather than the
